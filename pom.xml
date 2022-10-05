@@ -5,24 +5,18 @@
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
 	<version>8.3.3</version>
-	<properties> 
-        <maven.compiler.source>1.6</maven.compiler.source>
-        <maven.compiler.target>1.6</maven.compiler.target>
-        </properties>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
+		<maven.compiler.source>1.6</maven.compiler.source>
+                <maven.compiler.target>1.6</maven.compiler.target>
 	</properties>	
 	<dependencies>
 		<dependency>
 		    <groupId>com.oracle.bedrock</groupId>
 		    <artifactId>bedrock-runtime-maven</artifactId>
-		    <version>6.0.0</version>
-		    <properties> 
-                    <maven.compiler.source>1.6</maven.compiler.source>
-                    <maven.compiler.target>1.6</maven.compiler.target>
-                    </properties>
+		    <version>6.0.0</version 
 		</dependency>
 		
 		<dependency>
